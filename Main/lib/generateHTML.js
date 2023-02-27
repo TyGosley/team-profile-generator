@@ -1,4 +1,6 @@
 // create team page HTML
+const fs = require("fs");
+
 const createTeamPage = function (employeeCards) {
     return`
 
