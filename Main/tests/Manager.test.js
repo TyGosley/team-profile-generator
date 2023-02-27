@@ -7,5 +7,5 @@ test("Manager", () => {
     expect(employee.id).toEqual(198);
     expect(employee.email).toEqual("please-use-paper-pencil@Avengers.com");
     expect(employee.getRole()).toEqual("Manager");
-    expect(employee.getOfficeNumber()).toEqual(1);
+    expect(employee.getofficeNumber()).toEqual(1);
 })
