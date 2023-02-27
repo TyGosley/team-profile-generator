@@ -1,12 +1,36 @@
-// TODO: const generateHTMl require
+// TODO: const generateHTML require
 
-// TODO: require('fs)
-// TODO: require('inquirer)
-// TODO: require(Engineer)
-// TODO: require(Manager)
-// TODO: require(Intern)
+// ✅ require('fs)
+// ✅ require('inquirer)
+// ✅ require(Manager)
+// ✅ require(Engineer)
+// ✅ require(Intern)
+const fs = require("fs");
+const inquirer = require("inquirer");
+const generateHTML = require("./main/src/generateHTMLgenerateHTML");
+const Manager = require("./main/lib/Manager");
+const Engineer = require("./main/lib/Engineer");
+const Intern = require("./main/lib/Intern");
 
-// TODO: fn Generate()
 
-const
+const teamArray = [];
+
+const addManager = () => {
+    return inquirer.prompt([
+        {
+            name: 'name',
+            type: 'input',
+            message: "To start, please enter the manager's full name;",
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log("You must enter a full name!");
+                    return false;
+                }
+            }
+        },
+        
+    ])
+}
 
