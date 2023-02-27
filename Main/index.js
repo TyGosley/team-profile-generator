@@ -7,9 +7,9 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateHTML = require("./lib/generateHTML");
-const Manager = require("./main/lib/Manager.js");
-const Engineer = require("./main/lib/Engineer.js");
-const Intern = require("./main/lib/Intern.js");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 
 
 const teamArray = [];
@@ -59,8 +59,8 @@ const addManager = () => {
             name: 'officeNumber',
             type: 'input',
             message: "Please provide the manager's office number.",
-            validate: idInput => {
-                if (idInput) {
+            validate: officeNumberInput => {
+                if (officeNumberInput) {
                     return true;
                 } else {
                     console.log("Please enter an office number!");
@@ -190,7 +190,7 @@ const writeFile = data => {
             return;
         // when the profile has been created 
         } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
+            console.log("Success! Your team profile has been created! Please check out the index.html located in the 'dist' folder.")
         }
     })
 }; 
