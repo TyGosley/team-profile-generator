@@ -75,14 +75,14 @@ Once completed, navigate to the 'dist' subdirectory to find your new team HTML p
 
 ___
 
-Click [here]() to see the Team Profile Generator in action!
+Click [here](https://drive.google.com/file/d/13ZRr9mMGcIVyYjcc97YfvsTegwQ0tO1r/view) to see the Team Profile Generator in action!
 
 ## Screenshot
 
 ___
 
 Screenshot of the index.html file created.
-!["example shot"]()
+!["Team Profile Assemble"](./main/images/team-assembled-profile-gen.png)
 
 
 ## Contributing
