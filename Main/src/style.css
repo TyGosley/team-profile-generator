@@ -2,13 +2,16 @@
     --avengers-gray: #2b2d42;
     --gunmetal-gray: #8d99ae;
     --off-white: #edf2f4;
+    --pinkish: #EFA1AC;
     --salmon-vision: #ef233c;
     --ironman-red: #d90429;
 }
 
-
-header {
-    text-align: center;
+body{
+    background-color: #2b2d42;
+    
+}
+.navbar {
     background: linear-gradient(90deg, #2b2d42, #8d99ae, #edf2f4, #ef233c, #d90429);
     color: black;
     border-radius: .5rem black;
@@ -16,23 +19,30 @@ header {
     box-shadow: inset 0rem 0rem .5rem var(--salmon-vision), 0 0 .9375rem var(--gunmetal-gray);
 }
 
-.card-header {
-    background-color: var(--avengers-gray);
+.navbar-brand {
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Tilt Neon';
+}
 
+.card-header {
+    background-color: var(--gunmetal-gray);
+    font-family: 'Tilt Neon';
 }
 
 .card {
-    display: inline-block;
-    height: 30%;
-    width: 20%;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 20px;
-    color: white;
-    background-image: linear-gradient(to right, slateblue, steelblue);
-    text-align: left;
-}
+    background-color: var(--off-white);
+    border: .0625rem solid black;
+    border-radius: .5rem;
+    padding: .625rem;
+ }
+
+ .card-body {
+    background-color: var(--pinkish);
+    color: var(--avengers-gray);
+    font-family: 'Tilt Neon';
+ }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 20px var(--pinkish), 0 0 100px var(--pinkish);
 }
