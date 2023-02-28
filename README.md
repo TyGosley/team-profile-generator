@@ -42,6 +42,7 @@ You know have all of your employee's information in one place with this simple p
 
 ___
 This application was built using:
+
 * JavaScript
 * HTML
 * CSS
@@ -82,8 +83,7 @@ Click [here](https://drive.google.com/file/d/13ZRr9mMGcIVyYjcc97YfvsTegwQ0tO1r/v
 ___
 
 Screenshot of the index.html file created.
-!["Team Profile Assemble"](./main/images/team-assembled-profile-gen.png)
-
+!["Team Profile Generated](./main/images/team-assembled-profile-gen.png)
 
 ## Contributing
 
