@@ -83,7 +83,7 @@ Click [here](https://drive.google.com/file/d/13ZRr9mMGcIVyYjcc97YfvsTegwQ0tO1r/v
 ___
 
 Screenshot of the index.html file created.
-!["Team Profile Generated](./main/images/team-assembled-profile-gen.png)
+!["Team Profile Generated](./Main/images/team-assembled-profile-gen.png)
 
 ## Contributing
 
